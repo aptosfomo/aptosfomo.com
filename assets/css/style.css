@@ -10,8 +10,7 @@ Tags:blackfriday, blackfridayoffer, product landing page, product offer, friday 
 
 */
 /*=====================================================================*/
-/*@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P');*/
-@font-face { font-family: SuperOcean; src: url('super-ocean.ttf'); } 
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .Rectangle_2_copy_3 {
 	border-radius: 2px;
@@ -371,7 +370,7 @@ body {
 	color: white;
 	font-size: 1rem;
 	line-height: 1.4;
-	font-family: "SuperOcean", cursive;
+	font-family: "Lilita One", sans-serif;
 	background-color: #dab692;
 }
 
@@ -385,7 +384,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "SuperOcean", cursive;
+	font-family: "Lilita One", sans-serif;
 	color: white;
 	line-height: 1.2;
 	font-weight: 400;
@@ -1006,7 +1005,7 @@ ol {
 
 .nav-link {
 	color: black;
-	font-family: "SuperOcean", cursive;
+	font-family: "Lilita One", sans-serif;
 }
 @media (min-width: 1200px) {
 	.nav-link {
@@ -1289,7 +1288,7 @@ ol {
 	font-size: 1.125rem;
 	border-radius: 4px;
 	text-decoration: none;
-	font-family: "SuperOcean", cursive;
+	font-family: "Lilita One", sans-serif;
 	color: #0d142f;
 	padding: 0 1.7rem;
 	line-height: 50px;
@@ -1617,7 +1616,7 @@ ol {
 	font-size: calc(1.275rem + 0.2571428571vw);
 	background-color: transparent;
 	color: white;
-	font-family: "SuperOcean", cursive;
+	font-family: "Lilita One", sans-serif;
 	font-weight: 400;
 	padding: 1.5rem 1rem;
 	border: none;
