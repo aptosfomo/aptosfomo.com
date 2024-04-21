@@ -371,6 +371,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.4;
 	font-family: "Lilita One", sans-serif;
+	-webkit-text-stroke: 1px black;
 	background-color: #dab692;
 }
 
@@ -385,6 +386,7 @@ h4,
 h5,
 h6 {
 	font-family: "Lilita One", sans-serif;
+	-webkit-text-stroke: 1px black;
 	color: white;
 	line-height: 1.2;
 	font-weight: 400;
@@ -1006,6 +1008,7 @@ ol {
 .nav-link {
 	color: black;
 	font-family: "Lilita One", sans-serif;
+	-webkit-text-stroke: 1px black;
 }
 @media (min-width: 1200px) {
 	.nav-link {
@@ -1289,6 +1292,7 @@ ol {
 	border-radius: 4px;
 	text-decoration: none;
 	font-family: "Lilita One", sans-serif;
+	-webkit-text-stroke: 1px black;
 	color: #0d142f;
 	padding: 0 1.7rem;
 	line-height: 50px;
@@ -1617,6 +1621,7 @@ ol {
 	background-color: transparent;
 	color: white;
 	font-family: "Lilita One", sans-serif;
+	-webkit-text-stroke: 1px black;
 	font-weight: 400;
 	padding: 1.5rem 1rem;
 	border: none;
