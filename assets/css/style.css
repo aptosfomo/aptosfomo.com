@@ -46,6 +46,7 @@ html {
  */
 body {
 	margin: 0;
+	font-size: 2rem !important;
 }
 
 /**
@@ -447,7 +448,7 @@ a {
 }
 @media not all and (pointer: coarse) {
 	a:hover {
-		color: #fa3abb;
+		color: black;
 	}
 }
 
@@ -826,10 +827,10 @@ a {
 }
 
 .color--theme-color {
-	color: #fa3abb !important;
+	color: black !important;
 }
 .color--gradient-y {
-	color: #fa3abb;
+	color: black;
 /*	background: linear-gradient(0deg, #fdfccd 0%, #f6ff36 100%);*/
 /*	-webkit-background-clip: text;*/
 /*	-webkit-text-fill-color: transparent;*/
@@ -1018,7 +1019,7 @@ ol {
 	}
 }
 .nav-link--active, .nav-link:hover, .nav-link:focus {
-	color: #fa3abb;
+	color: black;
 }
 
 .navbar-toggler:focus {
@@ -1260,11 +1261,11 @@ ol {
 }
 .contact__form .default-btn {
 	background-color: #fff;
-	color: #fa3abb;
+	color: black;
 }
 @media not all and (pointer: coarse) {
 	.contact__form .default-btn:hover {
-		color: #fa3abb;
+		color: black;
 	}
 }
 
@@ -1298,7 +1299,7 @@ ol {
 	line-height: 50px;
 	transform-origin: right;
 	transition: all 0.3s ease;
-	background-color: #fa3abb;
+	background-color: black;
 	box-shadow: 0 5px 0px 0px currentColor;
 }
 
@@ -1306,7 +1307,7 @@ ol {
 	color: #0d142f;
 	transform: translateY(3px);
 	background-color: pink;
-	border-color: #fa3abb;
+	border-color: black;
 	box-shadow: none;
 }
 
@@ -1339,7 +1340,7 @@ ol {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fa3abb;
+	background: black;
 	transition: transform 0.5s;
 	transform-origin: right;
 	transform: scaleX(0);
@@ -1357,7 +1358,7 @@ ol {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fa3abb;
+	background: black;
 	transition: transform 0.5s;
 	transform-origin: left;
 	transform: scaleX(0);
@@ -1375,7 +1376,7 @@ ol {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fa3abb;
+	background: black;
 	transition: transform 0.5s;
 	transform-origin: bottom;
 	transform: scaleY(0);
@@ -1393,7 +1394,7 @@ ol {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fa3abb;
+	background: black;
 	transition: transform 0.5s;
 	transform-origin: top;
 	transform: scaleY(0);
@@ -1408,12 +1409,12 @@ ol {
 	color: #0d142f;
 	transform: translateY(3px);
 	background-color: pink;
-	border-color: #fa3abb;
+	border-color: black;
 	box-shadow: none;
 }
 .default-btn-active {
-	background-color: #fa3abb;
-	border-color: #fa3abb;
+	background-color: black;
+	border-color: black;
 }
 
 .preloader {
@@ -1533,7 +1534,7 @@ ol {
 	}
 }
 .roadmap__content h4 {
-	color: #fa3abb;
+	color: black;
 }
 .roadmap__content p {
 	color: #fff;
@@ -1711,7 +1712,7 @@ ol {
 }
 @media not all and (pointer: coarse) {
 	.social__link:hover {
-		background-color: #fa3abb;
+		background-color: black;
 		-webkit-transform: translateY(-3px);
 		-moz-transform: translateY(-3px);
 		-ms-transform: translateY(-3px);
@@ -1724,7 +1725,7 @@ ol {
 	z-index: 1;
 }
 .mint__name {
-	color: #fa3abb;
+	color: black;
 }
 @media (min-width: 992px) {
 	.mint__thumb {

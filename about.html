@@ -28,6 +28,25 @@
 <body class="bg-dark" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
 
+	<!-- Easter Egg Modal -->
+	<div class="modal fade" id="floatModal" tabindex="-1" aria-labelledby="floatModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content border-0" data-bs-dismiss="modal" aria-label="Close" 
+				style="
+					background-image: url('./assets/images/bg2.webp');
+					background-size: cover;
+					background-position: center;
+				">
+				<div class="modal-body text-center">
+					<img src="./assets/images/float.svg" style="max-width: 500px">
+					<h1 class="text-black">Aptos Fomo</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Easter Egg Modal -->
+
+
 	<!-- ================> header section start here <================== -->
 	<header class="header header--fixed animated fadeInDown" style="background-color: transparent;">
 		<div class="container">
@@ -35,7 +54,7 @@
 				<a class="navbar-brand text-white" href="index.html">
 					<img src="./assets/images/logo.svg" style="max-height: 55px;">
 				</a>
-				
+
 				<a class="navbar-brand text-white" href="https://twitter.com/aptosfomo" target="_blank">
 					<i class="fa-brands fa-square-x-twitter fa-2xl"></i>
 				</a>
@@ -67,18 +86,19 @@
 
 
 	<!-- ================> Mint section start here <================== -->
-	<section id="home" class="banner vh-100" style="background-image: url('./assets/images/bg.webp')">
+	<section id="home" class="banner vh-100" style="background-image: url('./assets/images/bg2.webp')">
 		<div class="container">
 			<div class="banner__wrapper">
 				<div class="row g-5 align-items-center">
 					<div class="col text-center">
-						<div class="banner__content aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
+						<div class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
 							<h2 class="text-uppercase">
 								<span>Aptos Fomo</span>
 							</h2>
 
-							<p>2000 unique characters called fomoo on Aptos.</p>
-							<button class="default-btn omni bg-white" disabled>GET $FOMO (SOON)</button>
+							<p class="h2">
+								Aptos Fomo is a blue chip meme token that sets new standards for all future projects in the ecosystem. But how do we plan to do this? It's very simple - full transparency with our community, as well as its support. All our wallets are open for public access and you can easily track our every transaction! But that's not all! With Fomo Foundation you have the opportunity to get a grant to develop your projects! And we emphasize exactly on "newcomers" who are launching their first product. Make way for the young! But that's not enough? Then you will be surprised to find out how many activities in the Aptos ecosystem are sponsored by us! So we invite you to be part of this amazing adventure.
+							</p>
 						</div>
 					</div>
 			
@@ -94,7 +114,12 @@
 	<!-- ================> Mint section end here <================== -->
 
 
-	<!-- fontawesome -->
+	<!-- ================> Hiring start here <================== -->
+	<div class="fixed-bottom text-end">
+		<a class="btn btn-sm floating-btn color--gradient-y m-3" type="button" data-bs-toggle="modal" data-bs-target="#floatModal"></a>
+	</div>
+	<!-- ================> Hiring end here <================== -->
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 	<!-- vendor plugins -->
